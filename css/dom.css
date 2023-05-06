@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+ }
+
+
+ body,p,h1,h2,h3,ul{
+    margin: 0;
+    padding: 0;
+ }
+ 
+ nav{
+    display: flex;
+ }
+ 
+ 
+ header nav ul {
+     display: flex;
+    list-style-type: none;
+ }
+ 
+ .container{
+    max-width: 500px;
+ }
+ 
+ 
+ 
+ 
+ .row{
+   display: flex;
+   flex-wrap: wrap;
+}
+ 
+[class*="col-"]{
+   padding:0px ;
+   margin: 0px;
+ }
+
+
+
+
+ .parent-div{
+   justify-content: center;
+   display: flex;
+   
+ }
+
+
+ .child-div{
+   width: 285px;
+ }
+
+
+ .parent-button{
+   padding: 15px;
+   justify-content: space-between;
+   display: flex;
+ }
+
+ .submit{
+   text-align: center;
+ }
+
+
+
+
